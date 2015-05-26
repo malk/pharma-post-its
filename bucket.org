@@ -1,0 +1,41 @@
+* VD
+** young ideas
+*** Centralize ALL the logs
+* 
+* Domain
+** Specialité Vs Presentation
+* Tech details here and there
+** We use "Velocity" templates for our GUIs
+** Hoptimal creates some private versions of public APIs that are just atomToJson translations with a connection token
+** 
+* Varnish
+** we shoudl not cache
+*** walls that write
+*** session toekns
+*** user data
+*** stat images
+** 
+* The table ronde Kanban
+** is push-based and not pull-based
+*** because we have uncontrolled workflow points
+**** we should externalize those (while showing them) and pull between controlled ones
+***** In the original kanban system: how does a kanban token migrates between boards?
+** We have many boards
+*** how to better relate them?
+** We have many "done"
+*** Which workflow points do they really represent?
+**** is po done, real done and test wip really workflow points at all or just stock?
+** we show suppositions of other teams workflow on it
+*** we should not, we cant control that
+** The multiple priority scheme (bottom up and then left o right and then color) is too complex
+*** How can we unify the priority system?
+** Why do we separate and prioritize by versions at all?
+*** maybe we would fare better by just marking versions on the ticket itself?
+**** maybe wed better not mark at all?
+*** This show a want to show the release cycle on the kanban
+**** also showing what versions have bugs
+***** and which are under tests
+****** Can we show all that in another way?
+******* or elsewhere?
+** why not a whole column for blocked tasks? do they remain in WIP if blocked?
+** Do we want Jira to mirror our workflow someday?
